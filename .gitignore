@@ -1,0 +1,34 @@
+# Audio
+*.mp3
+*.wav
+*.m4a
+*.ogg
+*.mp4
+
+# Transcripciones y resúmenes generados
+*.txt
+!requirements.txt
+
+# Documentos generados
+*.docx
+*.pdf
+*.png
+
+# Secretos
+.env
+.env.*
+*.key
+
+# Backups
+*.back
+*.back2
+*.log
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
